@@ -1,0 +1,63 @@
+\documentclass[es]{uc3mreport}
+
+
+\usepackage{import}
+
+\usepackage{mymacros}  % report-specific macros
+
+
+% general config
+
+\graphicspath{{img/}}  % Images folder
+ \addbibresource{references.bib}  % bibliography file
+
+\degree{Máster en Ingeniería Informática}
+\subject{Aplicaciones Avanzadas de la Inteligencia Artificial}
+\year{2024-2025}  % academic year
+\group{1}
+\author{
+  Luis Daniel Casais Mezquida -- 100429021\\
+  Jorge Ramos Santana -- 100451001\\
+  Carlos Salinas Gancedo -- 100549334
+}
+ \team{Equipo 1}
+\shortauthor{
+  \abbreviateauthor{Luis Daniel}{Casais Mezquida},
+  \abbreviateauthor{Jorge}{Ramos Santana} \& 
+  \abbreviateauthor{Carlos}{Salinas Gancedo}
+ }
+\lab{Práctica 2}
+\title{IA en la salud}
+% \shorttitle{La mejor memoria de la historia}
+\professor{María Paula de Toledo}
+
+
+\begin{document}
+  \makecover[old]
+
+  %\tableofcontents
+  % \listoffigures
+  % \listoftables
+
+  % contenidos
+  \begin{report}
+
+    % \includefrom{parts}{file.tex}
+
+  \end{report}
+
+
+  % bibliography
+   \label{bibliography}
+   \part{Bibliografía}
+   \printbibliography
+   \printbibliography[heading=none]  % alternative
+
+  % appendices
+  % \begin{appendices}
+  %   \part{Apéndices}  % optional
+  %   \section{Mi apéndice}
+  %   \lipsum[1]
+  % \end{appendices}
+
+\end{document}
