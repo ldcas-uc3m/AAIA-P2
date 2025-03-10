@@ -4,12 +4,6 @@ Aplicaciones Avanzadas de la IA 24/25
 Máster en Ingeniería Informática  
 Universidad Carlos III de Madrid
 
-
-## Enunciado de la práctica
-
-
-
-
 ## Instalación y ejecución
 
 
